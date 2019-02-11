@@ -1,5 +1,12 @@
 Changelog for JsonFormBuilder
 =========================================
+JsonFormBuilder 1.0.28-pl - 19th May 2016
+=========================================
+- Updated email footer to use replyTo email address when available.
+- Bug fix - Forms were not using reply-to address when set (updates to allow better handling of recent Hotmail / Gmail DMARC policy changes).
+- Bug fix - minimum length rule no longer fails if no value.
+- Bug fix for toJSON method - wasn't skipping files properly.
+- Added bug fix relating to Files still being attached when showInEmail
 
 JsonFormBuilder 1.0.27-pl - 1st Dec 2014
 =========================================
